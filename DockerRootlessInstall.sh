@@ -91,7 +91,7 @@ echo "iptables successfully installed"
 
 
 
-echo "PHASE 04: CONFIGURE ROOTLESS SCRIPT AND SYSTEMD SERVICE"
+echo "PHASE 05: CONFIGURE ROOTLESS SCRIPT AND SYSTEMD SERVICE"
 ##################################################
 
 echo "Set Login Control so we can run the rootless script as another user for systemd"
@@ -166,7 +166,7 @@ echo "startup script and service created and will be run after reboot"
 
 
 
-echo "PHASE 06 (FINAL): REBOOT HOST"
+echo "PHASE 06: REBOOT HOST"
 ##################################################
 
 sudo reboot
