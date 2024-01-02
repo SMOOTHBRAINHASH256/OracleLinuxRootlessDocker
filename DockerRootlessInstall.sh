@@ -18,6 +18,7 @@ TARGET_SCRIPT="/usr/local/sbin/installRootless.sh"
 
 echo "PHASE 01: UPDATE PACKAGES AND UNINSTALL POTENTIAL CONFLICTS"
 ##################################################
+
 # Update your existing list of packages
 sudo yum update -y
 # Install required packages
@@ -32,6 +33,7 @@ sudo yum-config-manager --add-repo https://download.docker.com/linux/centos/dock
 
 echo "PHASE 02: INSTALL DOCKER"
 ##################################################
+
 # Install Docker CE
 sudo yum install -y docker-ce docker-ce-cli containerd.io docker-buildx-plugin docker-compose-plugin
 # Check if the docker group exists, if not, create it
