@@ -26,7 +26,7 @@ TARGET_SCRIPT: The script thas is run post-reboot that runs the rootless.service
 
 You should run the script as follows:
 
-sudo bash /<scriptDirectory/DockerRootlessInstall.sh | tee -a <logFileName>.log
+sudo bash /<scriptDirectory>/DockerRootlessInstall.sh | tee -a <logFileName>.log
 
 
 
